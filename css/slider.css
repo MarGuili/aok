@@ -1,0 +1,28 @@
+#slideshow {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+.slideshowWindow {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    width: 300%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+   width: 100%;
+   height: 100%;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slideText{
+   position:absolute;
+   top:100px;
+   padding-left: 100px;
+}
